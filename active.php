@@ -48,11 +48,11 @@ include 'app/environment.php';
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-		 <a class="brand" href="<?php echo $n_dash ;?>">AnimeDB</a>
+          <a class="brand" href="<?php echo $n_dash ;?>">AnimeDB</a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li class="active"><a href="<?php echo $n_dash ;?>">Dashboard</a></li>
-              <li><a href="<?php echo $n_active ;?>">Active</a></li>
+              <li><a href="<?php echo $n_dash ;?>">Dashboard</a></li>
+              <li class="active"><a href="<?php echo $n_active ;?>">Active</a></li>
               <li><a href="<?php echo $n_archived ;?>">Archived</a></li>
 			  <li><a href="<?php echo $n_mgmt ;?>">Management</a></li>
             </ul>
@@ -64,16 +64,12 @@ include 'app/environment.php';
     <div class="container">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>Hello, <?php echo $my_name; ?>!</h1>
-		<br />
-        <h2>You currently have <?php echo $towatch_episodes;?> episodes to watch from <?php echo $towatch_series;?> series.</h2>
-		<p>You have watched a total of <?php echo $total_series;?> series and <?php echo $total_episodes;?> episodes.
-			<br />
-		That's an average of <?php echo $total_spent;?> hours of your life you'll never get back, hope it was worth it!</p>
-		<br />
-        <p><a class="btn btn-primary btn-large">Watch Queue &raquo;</a></p>
+      <div class="well">
+       <h2>Active Series</h2>
       </div>
+	<?php
+	active_series_list();
+	?>
 
       <!-- Example row of columns -->
       <div class="row">

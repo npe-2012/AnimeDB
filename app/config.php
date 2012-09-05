@@ -5,7 +5,7 @@
 //   Version 1.0
 //   Copyright 2012 Alex Boorman
 //   License: GNU General Public License
-//---------------------------------------------
+//----------------------------------------------
 
 
 
@@ -14,7 +14,7 @@
 $db_host = "localhost";
 $db_database = "animedb";
 $db_username = "root";
-$db_password = "";
+$db_password = "shadow86";
 
 // Server Settings   ---- //
 
@@ -28,9 +28,7 @@ $my_name = "Alex";
 
 
 
-// Setting Some Globals (Don't Edit!)
 
-date_default_timezone_set('$time_zone');
 
 
 ?>
