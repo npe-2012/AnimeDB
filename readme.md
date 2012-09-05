@@ -10,7 +10,7 @@ Powered By [Bootstrap][bootstrap].
 
 Project Status
 --------------
-Status: *Development*
+Status: *Development*  
 Progress: *10%*
 
 Contribution
