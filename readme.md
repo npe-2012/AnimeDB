@@ -1,4 +1,4 @@
-AnimeDB - An Anime Tracking Database
+AnimeDB - An Anime Tracking WebApp
 ====================================
 
 A simple PHP/MySQL based application to track anime you are currently watched
