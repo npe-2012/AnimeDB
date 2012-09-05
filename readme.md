@@ -15,9 +15,11 @@ Progress - 10%
 
 Contribution
 ------------
-Want to help? Great, feel free to drop me a line or fork this repo.
+Want to help? Great, feel free to drop me a [line][email] or [fork this repo][fork].
 
 
 [bootstrap]: http://twitter.github.com/bootstrap/
+[fork]: https://github.com/alexboorman/AnimeDB/fork
+[email]: mailto:alex@alexboorman.com
 
  
